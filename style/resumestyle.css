@@ -6,7 +6,6 @@ address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font
 a { color:#555; text-decoration:none; }
 a:hover { text-decoration:underline; }
 img { border:none; }
-ol,ul,li { list-style:none; }
 input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
 table { border-collapse:collapse; }
 html {overflow-y: scroll;} 
@@ -17,10 +16,10 @@ body {
 	padding:2%;
 }
 #container {
-	width: 75%;
+	width: 1030px;
 	background-color: rgb(250,250,250);
 	margin: 0 auto;
-	padding: 20px;
+	padding: 10px;
 	box-shadow:0px 0px 10px #000;
 }
 #left img {
@@ -29,28 +28,26 @@ body {
 	box-shadow:0px 0px 10px #000;
 }
 #left span {
-	font:Verdana;
 	padding: 5px;
 	display: block;
 }
 #left {
 	float: left;
 	display: inline-block;
-	padding: 20px;
+	padding: 10px;
 	font-size: 15px;
-
-	width: 30%;}
+	width: 25%;
+	clear: both;
+}
 #left h1 {
 	padding:5px;
-	font-size: 25px;
+	font-size: 20px;
 }
 #right {
-	display: inline-block;
-	display: inline-block;
 	background-color: rgb(197,224,179);
 	width: 60%;
-	margin-left: 1%;
 	padding: 15px;
+	margin-left: 35%;
 }
 #right h2 {
 	height: 30px;
@@ -64,4 +61,8 @@ body {
 }
 #right li {
 	padding: 5px 0px;
+}
+#right span {
+	display: block;
+	text-indent: 15px;
 }
