@@ -1,15 +1,14 @@
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
-body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; line-height: 25px; }
 td,th,caption { font-size:14px; }
 h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
 address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
 a { color:#555; text-decoration:none; }
-a:hover { text-decoration:underline; }
+a:hover { color:#528133; text-shadow: 1px 1px 1px #528133; }
 img { border:none; }
 input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
 table { border-collapse:collapse; }
 html {overflow-y: scroll;} 
-
 .clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
 .clearfix { *zoom:1; }
 body {
@@ -17,7 +16,7 @@ body {
 }
 #container {
 	width: 1030px;
-	background-color: rgb(250,250,250);
+	background-color: #FAFAFA;
 	margin: 0 auto;
 	padding: 10px;
 	box-shadow:0px 0px 10px #000;
@@ -32,6 +31,7 @@ body {
 	display: block;
 }
 #left {
+	position: fixed;
 	float: left;
 	display: inline-block;
 	padding: 10px;
@@ -43,8 +43,24 @@ body {
 	padding:5px;
 	font-size: 20px;
 }
+#pdfdl a {
+	position: fixed;
+	top: 150px;
+	margin-left: -140px;
+	color:#fff;
+	display: inline-block;
+	font-size: 15px;
+	padding: 5px ;
+	box-shadow:2px 2px 10px #528133;
+	background-color: #528133;
+}
+#pdfdl a:hover{
+	background-color: #FAFAFA;
+	color:#000;
+	text-shadow: 1px 1px 1px #528133;
+}
 #right {
-	background-color: rgb(197,224,179);
+	background-color: #C5E0B3;
 	width: 60%;
 	padding: 15px;
 	margin-left: 35%;
@@ -56,8 +72,8 @@ body {
 	font-size: 20px;
 	margin: 10px 0px 10px -35px;
 	padding: 0px 25px ;
-	background-color: rgb(82,129,51);
-	box-shadow:2px 2px 10px rgb(82,129,51);
+	background-color: #528133;
+	box-shadow:2px 2px 10px #528133;
 }
 #right li {
 	padding: 5px 0px;
