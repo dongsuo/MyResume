@@ -170,16 +170,6 @@ ol li {
     box-shadow: 0px 0px 10px #000;
 }
 
-#left img {
-    border-radius: 50%;
-    margin: 0 auto;
-    box-shadow: 0px 0px 10px #000;
-}
-
-#left span {
-    padding: 5px;
-    display: block;
-}
 
 #left {
     position: fixed;
@@ -190,6 +180,19 @@ ol li {
     width: 25%;
     clear: both;
 }
+
+#left img {
+    width: 60%;
+    border-radius: 3%;
+    margin: 0 auto;
+    /*box-shadow: 0px 0px 10px #000;*/
+}
+
+#left span {
+    padding: 5px;
+    display: block;
+}
+
 
 #left h1 {
     padding: 5px;
@@ -238,9 +241,10 @@ ol li {
 }
 
 .educat h3{
-	width: 15%;
+	/*width: 15%;*/
+    padding-left: 10px;
 	clear: both;
-	text-align: center;
+	text-align: left;
 	background: #96c477;
 	margin:15px 0;
 	height: 40px;
@@ -257,8 +261,8 @@ ol li {
 }
 
 .educat ul li>span:first-child{
-	width: 110px;
-	text-align: center;
+	width: 100px;
+	/*text-align: center;*/
 }
 
 .lower-size{
