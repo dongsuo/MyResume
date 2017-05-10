@@ -2,57 +2,60 @@
 <html>
 
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="description" content="这是徐晓飞的个人简历，徐晓飞是一名前端开发程序员">
     <title>徐晓飞的简历/Xu XiaoFei's Resume</title>
-    <link rel="stylesheet" type="text/css" href="/resume/style/resumestyle.css">
+    <link rel="stylesheet" href="style/common.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="style/resume.css">
+    <link rel="stylesheet" type="text/css" media="print" href="style/resumeprint.css">
 </head>
 
 <body>
     <div id="container">
-        <div id="left">
-            <img src="/resume/images/xuxiaofei1.jpg" alt="Personal Image">
-            <h1>姓名：徐晓飞</h1>
-            <span>年龄：24</span>
-            <span>坐标：武汉</span>
-            <span>Tel：13387612939</span>
-            <span><address>E-mail:<a href="mailto:xuxiaofei915@gmail.com">xuxiaofei915@gmail.com</a></address></span>
-            <span>GitHub:<a href="https://github.com/dongsuo">https://github.com/dongsuo</a></span>
-            <div id="pdfdl"><a href="/resume/file/xu_xiao_fei's_resume.pdf" target="new">PDF Download</a></div>
-        </div>
-        <div id="right">
-            <h2>求职目标</h2>
+        <div id="basic-info">
+            <h2><span>基本信息</span></h2>
+            <img src="images/xuxiaofei1.jpg" alt="Personal Image">
             <ul>
-                <li>职位：前端实习</li>
+                <li>姓名：徐晓飞</li>
+                <li>年龄：24</li>
+                <li>坐标：武汉</li>
+                <li>Tel：13387612939</li>
+                <li>E-mail: <a href="mailto:xuxiaofei915@gmail.com">xuxiaofei915@gmail.com</a></li>
+                <li>GitHub: <a href="https://github.com/dongsuo">https://github.com/dongsuo</a></li>
+            </ul>
+            <div id="pdfdl"><a href="/resume/file/xu_xiao_fei's_resume.pdf" target="new">打印|Print</a></div>
+        </div>
+        <div class="main-info job-target">
+            <h2><span>求职目标</span></h2>
+            <ul>
+                <li>职位：前端开发实习生</li>
                 <li>地点：上海/杭州/南京</li>
                 <li>薪资：-</li>
             </ul>
-             <h2>教育经历</h2>
-            <div class="educat">
-                <h3>武汉大学</h3>
-                <ul>
-                	<li>
-                		<span>2015.9至今</span>
-                		<span>——</span>
-                		<span>硕士</span><span class="lower-size">/图书馆学</span>
-	                	
-                	</li>
-                	<li>
-	                	<span>2011.9~2015.6</span>
-	                	<span>——</span>
-	                	<span>本科</span><span class="lower-size">/图书馆学</span>
-                		<ul>
-                			<li>在校期间获得乙等奖学金</li>
-                		</ul>
-                	</li>
-                </ul>
-            </div>
-            <h2>实习经历</h2>
-            <div class="right-intern-h">
-                <h3>和讯信息科技有限公司</h3>
-                <span>2016.6至今</span>
-            </div>
-            <ul class="right-intern-items">
+        </div>
+        <div class="main-info educat-info">
+            <h2><span>教育经历</span></h2>
+            <h3>武汉大学</h3>
+            <ul>
+                <li>
+                    <span>2015.9-2018.6</span>
+                    <span>—</span>
+                    <span>硕士</span><span class="lower-size">/图书馆学</span>
+                </li>
+                <li>
+                    <span>2011.9-2015.6</span>
+                    <span>—</span>
+                    <span>本科</span><span class="lower-size">/图书馆学</span>
+                    <ul>
+                        <li>在校期间获得乙等奖学金</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="main-info intern-info">
+            <h2><span>实习经历</span></h2>
+            <h3 class="intern-info-h">和讯信息科技有限公司<span>2016.6~2016.12</span></h3>
+            <ul class="intern-info-items">
                 <li>职位：前端开发实习生</li>
                 <li>工作内容：
                     <ol>
@@ -63,66 +66,67 @@
                     </ol>
                 </li>
             </ul>
-            <div class="right-intern-h">
-                <h3>武汉精英海淘信息资讯有限公司</h3>
-                <span>2015.9~2016.3</span>
-            </div>
-            <ul class="right-intern-items">
+            <h3 class="intern-info-h">武汉精英海淘信息资讯有限公司<span>2015.9~2016.3</span></h3>
+            <ul class="intern-info-items">
                 <li>职位：Web测试实习</li>
                 <li>工作内容：
-                	<ol>
-                		<li>编写测试用例，测试Web产品功能。</li>
-                		<li>提交产品Bug并跟进Bug解决流程。</li>
-                	</ol>
+                    <ol>
+                        <li>编写测试用例，测试Web产品功能。</li>
+                        <li>提交产品Bug并跟进Bug解决流程。</li>
+                    </ol>
                 </li>
-            </ul>S
-            <h2>前端技术</h2>
-            <dl class="fe-teches">
-                <dt>HTML/CSS：</dt>
-                <dd>能熟练地手写符合语义化、结构良好、易于维护的HTML页面;构造基本的页面布局，熟悉CSS中的大多数属性和CSS3新特性。</dd>
-                <dt>JavaScript：</dt>
-                <dd>熟悉JavaScript的基本语法以及DOM、BOM操作，能熟练地完成多数页面交互行为。</dd>
-                <dt>AngularJS：</dt>
-                <dd>有一定的AngularJS使用经验，熟悉基本的MVC概念，能构造简单的单页面应用(SPA)</dt>
-                <dt>Echarts：</dt>
-                <dd>能熟练地用Echarts实现数据可视化，构造较为复杂的图表。</dd>
-                <dt>jQuery：</dt>
-                <dd>了解基本的语法和特性，在实际工作项目中使用较少。</dd>
-                <dt>Photoshop：</dt>
-                <dd>能较为熟练地使用Photoshop处理图片</dd>
-            </dl>
-            <h2>个人作品</h2>
+            </ul>
+        </div>
+        <div class="main-info skill-info">
+            <h2><span>技能清单</span></h2>
+            <ul class="fe-teches">
+                <li><span class="term">HTML/CSS</span> 能熟练地手写符合语义化、结构良好、易于维护的HTML页面;构造基本的页面布局，熟悉CSS中的大多数属性和CSS3新特性。
+                </li>
+                <li><span class="term">JavaScript</span> 熟悉JavaScript的基本语法以及DOM、BOM操作，能熟练地完成多数页面交互行为。
+                </li>
+                <li><span class="term">AngularJS</span>有一定的AngularJS使用经验，熟悉基本的MVC概念，能构造简单的单页面应用(SPA)</li>
+                <li><span class="term">Echarts</span>能熟练地用Echarts实现数据可视化，构造较为复杂的图表。</li>
+                <li><span class="term">jQuery</span>了解基本的语法和特性，在实际工作项目中使用较少。</li>
+                <li><span class="term">Photoshop</span>能较为熟练地使用Photoshop处理图片</li>
+            </ul>
+        </div>
+        <div class="main-info personal-project">
+            <h2><span>个人作品</span></h2>
             <dl class="person-work">
-           	 	<dt>个人主页：
-           	 		<!-- <a href="http://xiaofeixu.cn/" target="_blank">点击查看</a> -->
-           	 		<a href="https://github.com/dongsuo/dongsuo.github.io">源代码</a>
-           	 	</dt>
-           	 	<dd>使用fullpage.js构建的个人主页。</dd>
+                <dt>个人主页：
+                    <!-- <a href="http://xiaofeixu.cn/" target="_blank">点击查看</a> -->
+                    <a href="https://github.com/dongsuo/dongsuo.github.io">源代码</a>
+                </dt>
+                <dd>使用fullpage.js构建的个人主页。</dd>
                 <dt>基于NodeJS搭建的web服务器：
                     <!-- <a href="http://xiaofeixu.cn/" target="_blank">点击查看</a> -->
                     <a href="https://github.com/dongsuo/node/">源代码</a>
                 </dt>
                 <dd>可以处理简单的动态和静态请求。</dd>
                 <dt>Timer：
-                	<!-- <a href="http://dongsuo.github.io/timer.html" target="_blank">点击查看</a> -->
-                	<a href="https://github.com/dongsuo/resume" target="_blank">源代码</a>
+                    <!-- <a href="http://dongsuo.github.io/timer.html" target="_blank">点击查看</a> -->
+                    <a href="https://github.com/dongsuo/resume" target="_blank">源代码</a>
                 </dt>
                 <dd>主要使用setInterval方法实现的计时器；</dd>
                 <dd>后期针对移动端进行了响应式优化。</dd>
             </dl>
-           
-            <h2>创业&amp;社团工作</h2>
+        </div>
+        <div class="main-info school-work">
+            <h2><span>创业&amp;社团</span></h2>
             <ul>
                 <li>2013年9月与同学组建团队创业，项目是教育培训，半年后因团队成员个人规划问题而被迫解散</li>
                 <li>2012.5-2014.5先后担任校书画协会会长、副会长，多次组织校级、市级、全国级大型比赛、活动</li>
             </ul>
-            <h2>语言能力</h2>
+        </div>
+        <div class="main-info language-ability">
+            <h2><span>语言能力</span></h2>
             <ul>
-                <li>CET4</li>
                 <li>CET6</li>
-                <li>可无障碍阅读英文文档，但是观看无字幕英文视频有一定障碍</li>
+                <li>可无障碍阅读英文文档</li>
             </ul>
-            <h2>近期规划</h2>
+        </div>
+        <div class="main-info short-term-plan">
+            <h2><span>近期规划</span></h2>
             <ul>
                 <li>阅读相关图书，学习JavaScript基础理论</li>
                 <li>学习了解浏览器兼容的相关知识</li>
@@ -132,6 +136,18 @@
             </ul>
         </div>
     </div>
+    <script>
+    'use strict';
+    var printBtn = document.getElementById('pdfdl');
+    var agent = window.navigator.appVersion.toLowerCase();
+    var ieJudge = agent.indexOf('edge')===-1?agent.indexOf('trident'):0;
+    printBtn.addEventListener('click',function(e){
+        if (ieJudge===-1) {
+            e.preventDefault();
+            window.print();
+        }
+    })
+    </script>
 </body>
 
 </html>
