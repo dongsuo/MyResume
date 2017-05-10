@@ -1,0 +1,125 @@
+a{
+    display: inline-block;
+    color: #528133;
+    text-decoration: underline;
+    padding: 2px 5px;
+}
+
+/*a:hover {
+    color: #fff;
+    text-shadow: 1px 1px 1px #528133;
+}*/
+
+#pdfdl a {
+    display: none;
+}
+
+#container{
+    width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 1rem;
+    font-family: serif;
+    line-height: 26px;
+}
+
+#container h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 36px;
+    font-family: 'Microsoft Yahei',sans-serif;
+}
+
+#container ul li{
+    list-style-position: inside;
+}
+
+#basic-info,.main-info {
+    position: relative;
+    border-bottom:2px dashed #96c477;
+    border-left: none;
+    border-right: none;
+    padding: 30px 20px;
+    margin-top: 20px;
+}
+#basic-info h2,.main-info h2{
+    position: absolute;
+    top: 5px;
+    left:50%;
+    border-top:3px solid #528133;
+    margin-left: -100px;
+    width: 200px;
+}
+#basic-info h2 span,.main-info h2 span{
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    margin-left: -70px;
+    background: #fff;
+    display: inline-block;
+    width: 70%;
+    text-align: center;
+}
+#basic-info img{
+    position: absolute;
+    height: 90%;
+    top: 0;
+    right: 0;
+}
+#basic-info ul li{
+    list-style-type: none;
+}
+
+#container>div:nth-of-type(n+2) h2{
+    text-align: center;
+    /*border-left:2px double #528133;*/
+    /*float: left;*/
+}
+
+.job-target ul li{
+    display: inline-block;
+    float: left;
+    margin-right: 150px;
+}
+.job-target ul::after{
+    content: ' ';
+    clear: both;
+    display: block;
+}
+.educat-info h3{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.educat-info ul ul li {
+    text-indent: 2em;
+}
+
+.intern-info-h{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.intern-info-h span{
+    font-weight: normal;
+    font-size: 1rem;
+}
+.intern-info-h span::before{
+    content: ' — ';
+    display: inline-block;
+    padding: 0 5px;
+    font-weight: normal;
+}
+.intern-info-items li ol li{
+    text-indent: 2rem;
+}
+
+.fe-teches li{
+    list-style-type: none;
+}
+.fe-teches .term{
+    display: inline-block;
+    padding: 0 5px;
+    /*background: #96b577;*/
+    border:1px solid #96b577;
+    line-height: 1.1rem;
+    margin:0 5px;
+}
