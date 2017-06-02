@@ -1,226 +1,198 @@
 a {
-    display: inline-block;
-    color: #000;
-    background: #96b577;
-    text-decoration: none;
-    padding: 5px;
-    height: 20px;
-    line-height: 20px;
-    font-size: 12px;
-}
+  display: inline-block;
+  color: #000;
+  background: #96b577;
+  text-decoration: none;
+  padding: 5px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px; }
 
 a:hover {
-    color: #fff;
-    text-shadow: 1px 1px 1px #528133;
-}
+  color: #fff;
+  text-shadow: 1px 1px 1px #528133; }
 
-.term{
-    display: inline-block;
-    padding: 2px 5px;
-    background: #96c477;
-}
+.term {
+  display: inline-block;
+  padding: 2px 5px;
+  background: #96c477; }
+
 .intern-info-h {
-    height: 40px;
-    line-height: 40px;
-    background: #96c477;
-    margin: 15px 0;
-    padding-left: 10px;
-}
+  height: 40px;
+  line-height: 40px;
+  background: #96c477;
+  margin: 15px 0;
+  padding-left: 10px; }
 
 .intern-info-h h3 {
-    height: 40px;
-    line-height: 40px;
-    float: left;
-    font-size: 16px;
-    display: inline-block;
-    width: 50%;
-}
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  font-size: 16px;
+  display: inline-block;
+  width: 50%; }
 
 .intern-info-h span {
-    display: inline-block;
-    height: 40px;
-    line-height: 40px;
-    float: right;
-    padding-right: 30px;
-}
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  float: right;
+  padding-right: 30px; }
 
 .intern-info-items {
-    clear: both;
-}
+  clear: both; }
 
 .intern-info-items li ol,
 .intern-info-items li ol li {
-    margin-left: 0;
-    padding-left: 0:
-}
+  margin-left: 0;
+  padding-left: 0; }
 
 .intern-info-items li ol li {
-    margin-left: 30px;
-}
+  margin-left: 30px; }
 
 ul li {
-    list-style-type: disc;
-    list-style-position: inside;
-}
+  list-style-type: disc;
+  list-style-position: inside; }
 
 ol li {
-    list-style-type: decimal;
-}
+  list-style-type: decimal; }
 
 #container {
-    position: relative;
-    z-index: 999;
-    width: 960px;
-    background-color: #FAFAFA;
-    margin: 0 auto;
-    padding: 10px;
-    box-shadow: 0px 0px 10px #000;
-}
+  position: relative;
+  z-index: 999;
+  width: 960px;
+  background-color: #FAFAFA;
+  margin: 0 auto;
+  padding: 10px;
+  box-shadow: 0px 0px 10px #000; }
 
 #basic-info {
-    position: fixed;
-    float: left;
-    display: inline-block;
-    padding: 10px;
-    font-size: 15px;
-    width: 25%;
-    clear: both;
-}
+  position: fixed;
+  float: left;
+  display: inline-block;
+  padding: 10px;
+  font-size: 15px;
+  width: 25%;
+  clear: both; }
 
 #basic-info img {
-    width: 60%;
-    border-radius: 3%;
-    margin: 0 auto;
-    /*box-shadow: 0px 0px 10px #000;*/
-}
-#basic-info h2{
-    display: none;
-}
+  width: 60%;
+  border-radius: 3%;
+  margin: 0 auto;
+  /*box-shadow: 0px 0px 10px #000;*/ }
+
+#basic-info h2 {
+  display: none; }
+
 #basic-info ul li {
-    padding: 5px;
-    display: block;
-}
+  padding: 5px;
+  display: block; }
 
 #basic-info ul li:nth-of-type(1) {
-    font-size: 20px;
-}
+  font-size: 20px; }
 
 #pdfdl a {
-    position: fixed;
-    top: 150px;
-    z-index: -99999999;
-    margin-left: -100px;
-    color: #fff;
-    display: inline-block;
-    font-size: 15px;
-    padding: 5px;
-    box-shadow: 2px 2px 10px #528133;
-    background-color: #528133;
-}
+  position: fixed;
+  top: 150px;
+  z-index: -99999999;
+  margin-left: -100px;
+  color: #fff;
+  display: inline-block;
+  font-size: 15px;
+  padding: 5px;
+  box-shadow: 2px 2px 10px #528133;
+  background-color: #528133; }
 
 #pdfdl a:hover {
-    background-color: #FAFAFA;
-    color: #000;
-    text-shadow: 1px 1px 1px #528133;
-}
+  background-color: #FAFAFA;
+  color: #000;
+  text-shadow: 1px 1px 1px #528133; }
 
 .main-info {
-    background-color: #C5E0B3;
-    width: 65%;
-    padding: 15px;
-    margin-left: 30%;
-}
+  background-color: #C5E0B3;
+  width: 65%;
+  padding: 15px;
+  margin-left: 30%; }
 
 .main-info h2 {
-    height: 40px;
-    color: #fff;
-    display: inline-block;
-    font-size: 18px;
-    line-height: 40px;
-    margin: 10px 0px 10px -35px;
-    padding: 0px 25px;
-    background-color: #528133;
-    box-shadow: 2px 2px 10px #528133;
-}
+  height: 40px;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 40px;
+  margin: 10px 0px 10px -35px;
+  padding: 0px 25px;
+  background-color: #528133;
+  box-shadow: 2px 2px 10px #528133; }
 
 .main-info li {
-    padding: 5px 0px;
-}
+  padding: 5px 0px; }
 
 .educat h3 {
-    /*width: 15%;*/
-    padding-left: 10px;
-    clear: both;
-    text-align: left;
-    background: #96c477;
-    margin: 15px 0;
-    height: 40px;
-    font-size: 16px;
-    line-height: 40px;
-}
+  /*width: 15%;*/
+  padding-left: 10px;
+  clear: both;
+  text-align: left;
+  background: #96c477;
+  margin: 15px 0;
+  height: 40px;
+  font-size: 16px;
+  line-height: 40px; }
 
 .educat ul li {
-    position: relative;
-}
+  position: relative; }
 
-.educat ul li>span {
-    display: inline-block;
-    height: 30px;
-    line-height: 30px;
-}
+.educat ul li > span {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px; }
 
-.educat ul li>span:first-child {
-    width: 100px;
-    /*text-align: center;*/
-}
+.educat ul li > span:first-child {
+  width: 100px;
+  /*text-align: center;*/ }
 
 .lower-size {
-    font-size: 12px;
-}
+  font-size: 12px; }
 
-.educat ul li>span:nth-child(2) {
-    margin: 0 10px;
-}
+.educat ul li > span:nth-child(2) {
+  margin: 0 10px; }
 
 .educat ul li ul li {
-    margin-left: 30px;
-    list-style-type: circle;
-}
-.fe-teches li{
-    list-style-type: none;
-}
+  margin-left: 30px;
+  list-style-type: circle; }
+
+.fe-teches li {
+  list-style-type: none; }
+
 .fe-teches dt,
 .person-work dt {
-    width: 100%;
-    clear: both;
-    background: #96c477;
-    margin: 15px 0;
-    height: 30px;
-    font-size: 16px;
-    line-height: 30px;
-    padding-left: 10px;
-}
+  width: 100%;
+  clear: both;
+  background: #96c477;
+  margin: 15px 0;
+  height: 30px;
+  font-size: 16px;
+  line-height: 30px;
+  padding-left: 10px; }
 
 .fe-teches dt {
-    width: 15%;
-    text-align: center;
-}
+  width: 15%;
+  text-align: center; }
 
 .fe-teches dd,
 .person-work dd {
-    margin-left: 30px;
-}
+  margin-left: 30px; }
 
 .person-work dt a {
-    display: inline-block;
-    float: right;
-    padding: 5px;
-    height: 20px;
-    line-height: 20px;
-    font-size: 12px;
-    margin-right: 10px;
-}
+  display: inline-block;
+  float: right;
+  padding: 5px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  margin-right: 10px; }
 
 .person-work dt a:first-child {
-    margin-right: 30px;
-}
+  margin-right: 30px; }
+
+/*# sourceMappingURL=resume.css.map */

@@ -1,0 +1,53 @@
+body {
+  padding: 0;
+  font-size: 12px;
+  line-height: 1.5rem; }
+
+#pdfdl {
+  display: none; }
+
+ul li, ol li {
+  list-style-type: none;
+  list-style-position: inside; }
+
+a {
+  display: inline-block;
+  color: #000;
+  text-decoration: underline;
+  padding: 5px;
+  line-height: 20px;
+  font-size: 12px; }
+
+.term {
+  background: #528133;
+  color: #fff;
+  padding: 2px 3px;
+  margin: 0 2px 0 0; }
+
+#container {
+  width: 100%;
+  padding: 10px;
+  background: #C5E0B3; }
+
+#basic-info h2, .main-info h2 {
+  background: #528133;
+  text-indent: 1rem;
+  color: #fff;
+  margin: 0 -10px; }
+
+#basic-info img {
+  float: left;
+  width: 100px;
+  border-radius: 3%;
+  margin: 5px 5px 5px 0; }
+
+.job-target ul li:nth-of-type(3) {
+  display: none; }
+
+.intern-info-items li ol li {
+  list-style-type: decimal; }
+
+.fe-teches li {
+  list-style-type: disc; }
+
+/*# sourceMappingURL=mobile.css.map */

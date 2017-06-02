@@ -26,6 +26,7 @@ th,
 td {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -83,16 +84,4 @@ table {
 
 html {
     overflow-y: scroll;
-}
-
-.clearfix:after {
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
-}
-
-.clearfix {
-    *zoom: 1;
 }
