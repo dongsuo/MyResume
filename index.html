@@ -5,20 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="renderer" content="webkit"> 
+    <meta name="renderer" content="webkit">
     <meta name="description" content="这是徐晓飞的个人简历，徐晓飞是一名前端开发程序员">
     <title>徐晓飞的简历/Xu XiaoFei's Resume</title>
-    <link rel="stylesheet" href="/resume/style/common.css">
-    <link rel="stylesheet" type="text/css" media="screen and (min-width:769px)" href="/resume/style/resume.css">
-    <link rel="stylesheet" type="text/css" media="screen and (max-width:768px)" href="/resume/style/mobile.css">
-    <link rel="stylesheet" type="text/css" media="print" href="/resume/style/resumeprint.css">
+    <link rel="stylesheet" href="./style/common.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width:769px)" href="./style/resume.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:768px)" href="./style/mobile.css">
+    <link rel="stylesheet" type="text/css" media="print" href="./style/resumeprint.css">
 </head>
 
 <body>
     <div id="container">
         <div id="basic-info">
             <h2><span>基本信息</span></h2>
-            <img src="/resume/images/xuxiaofei1.jpg" alt="Personal Image">
+            <img src="./images/xuxiaofei1.jpg" alt="Personal Image">
             <ul>
                 <li>姓名：徐晓飞</li>
                 <li>年龄：24</li>
@@ -27,7 +27,7 @@
                 <li>E-mail: <a href="mailto:xuxiaofei915@gmail.com">xuxiaofei915@gmail.com</a></li>
                 <li>GitHub: <a href="https://github.com/dongsuo">https://github.com/dongsuo</a></li>
             </ul>
-            <div id="pdfdl"><a href="/resume/file/xu_xiao_fei's_resume.pdf" target="new">打印|Print</a></div>
+            <div id="pdfdl"><a href="./file/xu_xiao_fei's_resume.pdf" target="new">打印|Print</a></div>
         </div>
         <div class="main-info job-target">
             <h2><span>求职目标</span></h2>
@@ -58,13 +58,24 @@
         </div>
         <div class="main-info intern-info">
             <h2><span>实习经历</span></h2>
+            <h3 class="intern-info-h">上海阿牛信息科技有限公司(华尔街见闻)<span>2017.7至今</span></h3>
+            <ul class="intern-info-items">
+                <li>职位：前端开发实习生</li>
+                <li>工作内容：
+                    <ol>
+                        <li>维护后台管理系统（VUE2.0+ElementUI）</li>
+                        <li>实现见识App的后台管理功能</li>
+                    </ol>
+                </li>
+            </ul>
             <h3 class="intern-info-h">和讯信息科技有限公司<span>2016.6~2016.12</span></h3>
             <ul class="intern-info-items">
                 <li>职位：前端开发实习生</li>
                 <li>工作内容：
                     <ol>
                         <li>独立开发和讯大数据部门主页</li>
-                        <li>从REST接口获取数据，并用Echarts实现数据可视化</li>
+                        <li>Angular1.x实现单页面应用</li>
+                        <li>用Echarts实现数据可视化</li>
                         <li>独立实现用户登录系统前端部分</li>
                         <li>独立开发移动版热门新闻</li>
                     </ol>
@@ -86,40 +97,40 @@
             <ul class="fe-teches">
                 <li><span class="term">HTML/CSS</span> 能熟练地手写符合语义化、结构良好、易于维护的HTML页面;构造基本的页面布局，熟悉CSS中的大多数属性和CSS3新特性。
                 </li>
-                <li><span class="term">JavaScript</span> 熟悉JavaScript的基本语法以及DOM、BOM操作，能熟练地完成多数页面交互行为。
+                <li><span class="term">JavaScript</span> 熟悉ECMAScript的基本规则、特性以及DOM、BOM操作，能熟练地完成多数页面交互行为。目前正在学习ES6。
                 </li>
-                <li><span class="term">AngularJS</span>有一定的AngularJS使用经验，熟悉基本的MVC概念，能构造简单的单页面应用(SPA)</li>
+                <li><span class="term">Angular</span>有一定的Angular项目经验，可以用Angular构造基本的单页面应用(SPA)，目前正在学习Angular4</li>
+                <li><span class="term">Vue</span>有丰富的Vue项目经验，实习时负责Vue+ElementUI的后台管理系统维护和新增需求</li>
+                <li><span class="term">NodeJS</span>
+                正在学习中，了解Node的基本特性，并通过Node了解HTTP协议、后端的工作和前后端配合的工作要点。</li>
                 <li><span class="term">Echarts</span>能熟练地用Echarts实现数据可视化，构造较为复杂的图表。</li>
-                <li><span class="term">jQuery</span>了解基本的语法和特性，在实际工作项目中使用较少。</li>
-                <li><span class="term">Photoshop</span>能较为熟练地使用Photoshop处理图片</li>
             </ul>
         </div>
         <div class="main-info personal-project">
             <h2><span>个人作品</span></h2>
             <dl class="person-work">
-                <dt>个人主页：
-                    <!-- <a href="http://xiaofeixu.cn/" target="_blank">点击查看</a> -->
-                    <a href="https://github.com/dongsuo/dongsuo.github.io">源代码</a>
+                <dt>个人网站：
+                    <a href="https://github.com/dongsuo/MySite" target="_blank">源代码</a>
                 </dt>
-                <dd>使用fullpage.js构建的个人主页。</dd>
-                <dt>基于NodeJS搭建的web服务器：
-                    <!-- <a href="http://xiaofeixu.cn/" target="_blank">点击查看</a> -->
-                    <a href="https://github.com/dongsuo/node/">源代码</a>
+                <dd>使用Angular构建的个人网站。</dd>
+                <dt>NodeJS+WebSocket搭建的聊天室：
+                     <a href="http://xiaofeixu.cn/lab/chat/" target="_blank">点击查看</a>
+                    <!-- <a href="https://github.com/dongsuo/node/">源代码</a> -->
                 </dt>
-                <dd>可以处理简单的动态和静态请求。</dd>
-                <dt>Timer：
-                    <!-- <a href="http://dongsuo.github.io/timer.html" target="_blank">点击查看</a> -->
-                    <a href="https://github.com/dongsuo/resume" target="_blank">源代码</a>
+                <dd>支持聊天/更改昵称等功能，暂无移动端适配</dd>
+                <dt>注册/登录：
+                     <a href="http://xiaofeixu.cn/authorization/login" target="_blank">点击查看</a>
+                    <!-- <a href="https://github.com/dongsuo/resume" target="_blank">源代码</a> -->
                 </dt>
-                <dd>主要使用setInterval方法实现的计时器；</dd>
-                <dd>后期针对移动端进行了响应式优化。</dd>
+                <dd>基于Angular+Material Design实现的注册/登录功能</dd>
+                <dd>后端是Express实现的简单的请求处理</dd>
             </dl>
         </div>
         <div class="main-info school-work">
             <h2><span>创业&amp;社团</span></h2>
             <ul>
                 <li>2013年9月与同学组建团队创业，项目是教育培训，半年后因团队成员个人规划问题而被迫解散</li>
-                <li>2012.5-2014.5先后担任校书画协会会长、副会长，多次组织校级、市级、全国级大型比赛、活动</li>
+                <li>2012.5-2014.5先后担任校书画协会会长、副会长，多次组织校级、市级、全国级大型比赛、活动，期间带领团队成功举办了校级、全国级书画比赛，积累了丰富的活动组织经验，锻炼了个人组织协调能力。</li>
             </ul>
         </div>
         <div class="main-info language-ability">
