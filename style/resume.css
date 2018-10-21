@@ -17,14 +17,14 @@ a:hover {
   padding: 2px 5px;
   background: #96c477; }
 
-.intern-info-h {
+.work-info-h {
   height: 40px;
   line-height: 40px;
   background: #96c477;
   margin: 15px 0;
   padding-left: 10px; }
 
-.intern-info-h h3 {
+.work-info-h h3 {
   height: 40px;
   line-height: 40px;
   float: left;
@@ -32,22 +32,22 @@ a:hover {
   display: inline-block;
   width: 50%; }
 
-.intern-info-h span {
+.work-info-h span {
   display: inline-block;
   height: 40px;
   line-height: 40px;
   float: right;
   padding-right: 30px; }
 
-.intern-info-items {
+.work-info-items {
   clear: both; }
 
-.intern-info-items li ol,
-.intern-info-items li ol li {
+.work-info-items li ol,
+.work-info-items li ol li {
   margin-left: 0;
   padding-left: 0; }
 
-.intern-info-items li ol li {
+.work-info-items li ol li {
   margin-left: 30px; }
 
 ul li {
