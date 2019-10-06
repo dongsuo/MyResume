@@ -94,21 +94,24 @@ a{
     text-indent: 2em;
 }
 
-.intern-info-h{
+.work-info-h{
+    margin-top: 45px;
     font-size: 1.1rem;
     font-weight: bold;
 }
-.intern-info-h span{
+.work-info-h span{
+    float: left;
     font-weight: normal;
     font-size: 1rem;
+    margin-right: 20px;
 }
-.intern-info-h span::before{
-    content: ' — ';
+.work-info-h span::after{
+    content: ' : ';
     display: inline-block;
     padding: 0 5px;
     font-weight: normal;
 }
-.intern-info-items li ol li{
+.work-info-items li ol li{
     text-indent: 2rem;
 }
 
