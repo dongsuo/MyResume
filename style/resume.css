@@ -52,7 +52,7 @@ ul li {
   list-style-type: disc;
   list-style-position: inside; }
 
-ol li {
+ol>li {
   list-style-type: decimal; }
 
 #container {

@@ -115,6 +115,10 @@ a{
     text-indent: 2rem;
 }
 
+.work-info-items li ol li li{
+    text-indent: 4rem;
+}
+
 .fe-teches li{
     list-style-type: none;
 }
